@@ -3,6 +3,7 @@
 # vim tmp/swp files
 *.swp
 *.un~
+.ftppass
 
 pids
 logs
