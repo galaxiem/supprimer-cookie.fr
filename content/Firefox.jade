@@ -1,0 +1,30 @@
+extends ../templates/default
+block titleBlock
+	title Comment supprimer les cookies de Firefox?
+block descriptionBlock
+	- var description = "Toutes les informations pour vider efficacement les cookies de votre navigateur Firefox"
+block videoBlock
+	- var srcVideo = "//www.youtube.com/embed/4GgHfRHma5w"
+block contentBlock
+	h1 Comment supprimer les cookies sur Firefox ?
+	section
+		h2 Supprimer les cookies d'un seul site avec Firefox
+		p Pour supprimer les cookies d'un seul site :
+		ol
+			li Cliquez sur le bouton menu et sélectionnez Préférences
+			li Sélectionnez le panneau Vie privée.
+			li Dans la zone Historique, sélectionnez <strong>Firefox</strong> utilise des paramètres personnalisés pour l'historique
+			li Cliquez sur Afficher les <strong>cookies</strong>…. La fenêtre «<strong>Cookies</strong>» apparaît.
+			li Dans la zone Rechercher :, saisissez le nom du site dont vous voulez supprimer les <strong>cookies</strong>. Les <strong>cookies</strong> qui correspondent à votre recherche s'affichent.
+			li Sélectionnez dans la liste le ou les <strong>cookie(s)</strong> que vous souhaitez <strong>supprimer</strong> puis cliquez sur <strong>Supprimer le cookie</strong>.
+			li Sélectionnez le premier <strong>cookie</strong> et appuyer simultanément sur Maj + Fin pour sélectionner tous les <strong>cookies</strong> de la liste.
+			li Fermer la fenêtre « <strong>Cookies</strong> ».
+	section
+		h2 Supprimer tous les cookies avec Firefox
+		p Pour <strong>vider</strong> tous les <strong>cookies</strong> conservés sur votre ordinateur, ouvrez la fenêtre des <strong>cookies</strong> comme expliqué plus haut et utilisez le bouton <strong>Supprimer tous les cookies</strong>, ou bien vous pouvez suivre la méthode ci-dessous : Cliquez sur le bouton de menu , choisissez Historique, puis <strong>effacer</strong> l'historique récent….
+		ol
+			li Dans le menu déroulant Intervalle à effacer sélectionnez tout.
+			li Cliquez sur la flèche près de Détails pour afficher le détail des éléments contenus dans l'historique.
+			li Cochez la case <strong>Cookies</strong> et assurez-vous que les éléments que vous souhaitez conserver ne sont pas sélectionnés.
+			li Cliquez sur <strong>Effacer</strong> maintenant pour <strong>supprimer</strong> tous les <strong>cookies</strong> et fermer la fenêtre « Supprimer l'historique récent ».
+		p <a href="https://support.mozilla.org/fr/kb/effacer-cookies-supprimer-infos-sites-enregistrees">Source : Firefox.org</a>  

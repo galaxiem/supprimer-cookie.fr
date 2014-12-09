@@ -1,0 +1,29 @@
+extends ../templates/default
+block titleBlock
+	title Comment supprimer les cookies ?
+block descriptionBlock
+	- var description = "Toutes les informations pour supprimer efficacement les cookies de votre navigateur."
+block videoBlock
+	- var srcVideo = "//www.youtube.com/embed/Ij9EkAQzVvM"
+block contentBlock
+	h1 Comment supprimer les cookies ?
+	p Les <strong>cookies</strong> sont des marques de votre passage sur les sites internet. Certains ne stockent que le mot de passe et le "login" correspondant à un site tandis que d'autres enregistrent davantage d'informations, généralement vos préférences de connexion et/ou des références de facturation (adresses, téléphone, e-mail, ...etc ...).
+	p Par sécurité ou par souci de confidentialité, vous pouvez <strong>effacer</strong> ces traces. Néanmoins, il peut être opportun de garder les <strong>cookies</strong> de sites souvent visités pour avoir une navigation plus rapide. Dans ce dernier cas, le choix des <strong>cookies</strong> à <strong>supprimer</strong> doit se faire un par un.
+	h2 Que sont les cookies ?
+	p Les <strong>cookies</strong> sont de petits fichiers textes stockés par le navigateur web sur le disque dur du visiteur d'un site web et qui servent (entre autres) à enregistrer des informations sur le visiteur ou encore sur son parcours sur le site. Le webmaster peut ainsi reconnaître les habitudes d'un visiteur et personnaliser la présentation de son site pour chaque visiteur ; les <strong>cookies</strong> permettent alors de garder en mémoire combien d'articles il faut afficher en page d'accueil ou encore de retenir les identifiants de connexion à une éventuelle partie privée : lorsque le visiteur revient sur le site, il ne lui est plus nécessaire de taper son nom et son mot de passe pour se faire reconnaître, puisqu'ils sont automatiquement envoyés par le cookie.
+	p Un <strong>cookie</strong> a une durée de vie limitée, fixée par le concepteur du site. Ils peuvent aussi expirer à la fin de la session sur le site, ce qui correspond à la fermeture du navigateur. Les <strong>cookies</strong> sont largement utilisés pour simplifier la vie des visiteurs et leur présenter des informations plus pertinentes. Mais une technique particulière permet sur d'anciens navigateurs de suivre un visiteur sur plusieurs sites et ainsi de collecter et recouper des informations très étendues sur ses habitudes. Cette méthode a donné à l'usage des <strong>cookies</strong> une réputation de technique de surveillance violant la sphère privée des visiteurs.
+	p En réponse à ces craintes légitimes, un mécanisme appelé P3P a été mis en place afin de prémunir les internautes des éventuelles utilisations abusives
+	h2 Stockage des cookies
+	p Avec certains navigateurs, un <strong>cookie</strong> est facilement modifiable, un simple éditeur de texte comme le bloc notes suffit à changer ses valeurs manuellement.
+	p Les cookies sont enregistrés différemment selon les navigateurs:
+	nav
+		ul
+			li Internet Explorer enregistre chaque cookie dans un fichier différent.
+			li Mozilla Firefox enregistre tous ses cookies dans un seul fichier.
+			li Opera enregistre tous ses cookies dans un seul fichier et le chiffre (impossible de les modifier sauf dans les options du logiciel).
+			li Safari enregistre tous ses cookies dans un seul fichier d'extension .plist. La modification est possible mais très peu aisée, à moins de passer par les options du logiciel.
+	p Sources:
+	p
+		a(href="http://www.commentcamarche.net/contents/1041-cookies-informatique") commentcamarche.net
+	p
+		a(href="http://fr.wikipedia.org/wiki/Cookie_(informatique)") wikipedia.org

@@ -1,0 +1,17 @@
+*.DS_Store
+
+# vim tmp/swp files
+*.swp
+*.un~
+
+pids
+logs
+results
+
+npm-debug.log
+
+node_modules/
+
+#generated files
+*.html
+*.css
